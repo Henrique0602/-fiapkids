@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+.header img{
+    display: flex;
+    justify-content: center;
+}
+
+.Titulo{
+    background-color: #011425;
+    
+}
+
+.paragrafo{
+    color: white;
+}
+
+.pessoa1{
+    background-color: #011425;
+}
+
+.navbar-toggler-icon{
+    color: white !important;
+}
