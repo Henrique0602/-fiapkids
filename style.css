@@ -8,11 +8,20 @@
     display: flex;
     justify-content: center;
 }
+header h1{
+    background: -webkit-linear-gradient(-50deg, rgba(183,255,0,0.8) 30%, #00fdd0 55%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+}
 
 .Titulo{
     background-color: #011425;
     
 }
+
 
 .paragrafo{
     color: white;
@@ -24,4 +33,305 @@
 
 .navbar-toggler-icon{
     color: white !important;
+}
+
+.container-fluid{
+    font-size: 20px;
+    color: aqua;
+}
+
+.corpo3{
+    background-color: #011425;
+
+}
+
+.corpo3 img{
+    width: 30px;
+    margin: 10px;
+}
+.corpo3 h2{
+    display: flex;
+    justify-content: center;
+    background: -webkit-linear-gradient(-50deg, rgba(183,255,0,0.8) 30%, #00fdd0 55%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+
+}
+
+
+.card1{
+    min-height: 50vh;
+    border: 1px solid #011425;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem 2rem 2rem;
+}
+.content h1{
+    text-align: center;
+    justify-content: center;
+    align-items: start;
+}
+
+.card2{
+    min-height: 50vh;
+    border: 1px solid #011425;
+    display: flex;
+    margin: 2rem 2rem 2rem 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: start;
+
+}
+
+
+.card1{
+    min-height: 50vh;
+    border: 1px solid #011425;
+    display: flex;
+    margin: 2rem 2rem 2rem 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: start;
+    background-image: url(https://images.pexels.com/photos/3671194/pexels-photo-3671194.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: 100%;
+    background-size: cover;
+    transition: all 0.5s;
+
+}
+
+.card1 .content{
+    height: 100%;
+    width: 100%; 
+    transition: 0.3s;
+}
+.card1 .content h1{
+    color: transparent;
+    height: 100%;
+    width: 100%; 
+    transition: 0.3s;
+}
+
+
+.card1 .content:hover{
+    color: white;
+    backdrop-filter: blur(4px);
+}
+.card1 .content:hover h1{
+    color: white;
+}
+
+
+.card2{
+    min-height: 50vh;
+    border: 1px solid #011425;
+    display: flex;
+    margin: 2rem 2rem 2rem 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: start;
+    background-image: url(https://images.pexels.com/photos/796633/pexels-photo-796633.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: 100%;
+    background-size: cover;
+    transition: all 0.5s;
+
+}
+
+.card2 .content{
+    height: 100%;
+    width: 100%; 
+    transition: 0.3s;
+}
+.card2 .content h1{
+    color: transparent;
+    height: 100%;
+    width: 100%; 
+    transition: 0.3s;
+}
+
+
+.card2 .content:hover{
+    color: white;
+    backdrop-filter: blur(4px);
+}
+.card2 .content:hover h1{
+    color: white;
+}
+
+
+
+.card3{
+    min-height: 50vh;
+    border: 1px solid #011425;
+    display: flex;
+    margin: 2rem 2rem 2rem 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: start;
+    background-image: url(https://images.pexels.com/photos/207891/pexels-photo-207891.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: 100%;
+    background-size: cover;
+    transition: all 0.5s;
+
+}
+
+.card3 button{
+    border-radius: 10px;
+    background-color: #ED155B;
+}
+.card3 .content{
+    height: 100%;
+    width: 100%; 
+    transition: 0.3s;
+}
+.card3 .content h1{
+    color: transparent;
+    height: 100%;
+    width: 100%; 
+    transition: 0.3s;
+}
+
+
+.card3 .content:hover{
+    color: white;
+    backdrop-filter: blur(4px);
+}
+.card3 .content:hover h1{
+    color: white;
+}
+
+
+.card3 img{
+    width: 70%;
+    border-radius: 10px;
+
+}
+
+.magica {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.magica p {
+    margin-top: 12px;
+    color: aqua;
+}
+
+footer{
+    background-color: #262626;
+    padding: 50px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    background: -webkit-linear-gradient(-50deg, rgba(183,255,0,0.8) 30%, #00fdd0 55%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #cecdcd;
+    padding-left: 10px;
+}
+.footer-col .medias-socias{
+    margin-top: 30px;
+}
+.footer-col .medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+}
+.footer-col .medias-socias a i{
+    font-size: 20px;
+}
+
+.footer-col .medias-socias a:hover{
+    color: #262626;
+    background-color: white;
+}
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #262626;
+}
+.footer-col .form-sub input::placeholder{
+    color: white;
+}
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px; 
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #262626;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;        
+}
+/* Responsivo */
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
+    }
 }
