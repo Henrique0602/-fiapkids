@@ -22,7 +22,10 @@ header h1{
     
 }
 
-
+.navbar-brand a {
+    display: flex;
+    justify-content: center;
+}
 .paragrafo{
     color: white;
 }
@@ -35,9 +38,12 @@ header h1{
     color: white !important;
 }
 
-.container-fluid{
+.nav-item{
     font-size: 20px;
-    color: aqua;
+
+}
+.nav-item a{
+    color: #29f4d5;
 }
 
 .corpo3{
@@ -60,8 +66,8 @@ header h1{
 }
 
 .cards {
-    display: grid;
     grid-template-columns: repeat( 3, 1fr);
+    display: grid;
 
 }
 
@@ -72,6 +78,8 @@ header h1{
     display: flex;
     flex-direction: column;
     margin: 2rem 2rem 2rem 2rem;
+    flex:1 1 150px;
+    margin: 5px;
 }
 .content h1{
     text-align: center;
@@ -335,3 +343,26 @@ footer{
         width: 100%;
     }
 }
+
+
+@media screen and (max-width: 720px) {
+    .cards {
+      flex-direction: column;
+    }
+  
+    .cards .card1 {
+      margin-left: 0;
+      margin-bottom: 32px;
+    }
+
+    .cards .card2 {
+        margin-left: 0;
+        margin-bottom: 32px;
+   
+    }
+
+    .cards .card3 {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+  }
