@@ -41,7 +41,13 @@ header h1{
 .nav-item{
     font-size: 20px;
 
+    
 }
+
+#menu{
+    background-color: #00fdd0;
+}
+
 .nav-item a{
     color: #29f4d5;
 }
@@ -331,6 +337,92 @@ footer{
     font-weight: bold;
     background-color: white;        
 }
+
+.arrumarCadastro{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    width: 50%;
+}
+.Produtos{
+    background-color: #011425;
+}
+.FiapProdutos h3{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    background: -webkit-linear-gradient(-50deg, rgba(183,255,0,0.8) 30%, #00fdd0 55%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.1rem;
+
+}
+
+
+.produtos label{
+    color: white;
+
+}
+
+.produtos input{
+    margin: 0.6rem;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #00fdd0;
+}
+
+.produtos input:hover{
+    background-color: #eeeeee75;
+}
+
+.produtos input:focus-visible{
+    outline: 1px solid #00fdd0  ;
+}
+
+.produtos input::placeholder{
+    color: #000000be;
+}
+
+
+.produtos textarea{
+    margin: 0.6rem;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #00fdd0;
+}
+
+.produtos textarea:hover{
+    background-color: #eeeeee75;
+}
+
+
+.produtos textarea:focus-visible{
+    outline: 1px solid #00fdd0  ;
+}
+
+.produtos textarea::placeholder{
+    color: #000000be;
+}
 /* Responsivo */
 @media (max-width: 800px) {
     .footer-col{
@@ -366,3 +458,30 @@ footer{
         margin-bottom: 32px;
     }
   }
+
+
+  @media screen and (max-width : 1330px){
+    .FiapProdutos {
+        width: 50%;
+    }
+    .produtos {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width :1064px){
+    .FiapProdutos {
+        width: 90%;
+        height: auto;
+
+    }
+
+    .Cadastro{
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        padding-right: 5rem;
+    }
+}
